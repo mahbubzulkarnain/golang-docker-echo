@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  server:
+    image: server:latest
+    ports:
+    - 3000:3000
+    volumes:
+    - ./:/go/src/github.com/mahbubzulkarnain/golang-docker-echo
